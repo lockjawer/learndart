@@ -20,4 +20,18 @@ main(){
             print('$i is odd');
         }
     }
+    // a little game to guess the secret number
+    int secretNumber = 42;
+    int guess;
+    do {
+        stdout.writeln('Guess the secret number (between 1 and 100):');
+        String? input = stdin.readLineSync();
+        guess = int.parse(input!);
+        if (guess < secretNumber) {
+            print('Too low! Try again.');
+        } else if (guess > secretNumber) {
+            print('Too high! Try again.');
+        }
+    } while (guess != secretNumber);
+    print('Congratulations, you guessed the secret number!');
 }
