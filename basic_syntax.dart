@@ -2,6 +2,7 @@ import 'dart:io';
 
 main(){
     // printing a welcome message
+    /*
     print('Welcome to the Dart program!');
     stdout.writeln('Enter your name:');
     String? name = stdin.readLineSync();
@@ -33,5 +34,28 @@ main(){
             print('Too high! Try again.');
         }
     } while (guess != secretNumber);
-    print('Congratulations, you guessed the secret number!');
+    print('Congratulations, you guessed the secret number!'); */
+
+    // showOutput(square(5));
+    // showOutput(multiplyByThere(5));
+    // var list = ['apples', 'bananas', 'oranges'];
+    // list.forEach(showOutput);
+
+    sum(1, 2);
 }
+
+
+// a function that returns the square of a number
+dynamic square(int number) {
+    return number * number;
+}
+// a function that multiplies a number by 3
+dynamic multiplyByThere(int number) => number * 3;
+
+// a function that prints the output
+void showOutput(var output) {
+    print(output);
+}
+
+// a function that sums two numbers
+void sum(int a, int b) => print(a + b);
