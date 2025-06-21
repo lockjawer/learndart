@@ -1,9 +1,7 @@
-
-
-
-
 **Learn Dart: Video Notes**
 ==========================
+
+![Course Image](images/course.png)
 
 **Video Title:** [Insert video title]
 **Video Link:** https://www.youtube.com/watch?v=Ej_Pcr4uC2Q&t=3367s
